@@ -636,7 +636,9 @@ layout: intro
 layout: intro
 ---
 
-# <logos-nuxt-icon/> Demo!
+<img src="/nuxt-uwu.png" class="mx-auto scale-120 h-90" />
+
+# Demo!
 
 ---
 layout: intro
