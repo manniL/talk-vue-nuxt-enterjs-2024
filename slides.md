@@ -569,6 +569,7 @@ layout: intro
 * Vite <logos-vitejs />
 * Volar (Language Tools) <img src="https://raw.githubusercontent.com/volarjs/docs/main/public/favicon.svg" class="h-10 w-10 inline" />
 * UnJS <img src="https://unjs.io/assets/images/design-kit/unjs-logo-black.svg" class="h-8 w-8 inline" />
+* Sli.dev (this presentation is built with it!)
 
 </VClicks>
 
@@ -843,6 +844,16 @@ layout: intro
 
 </VClicks>
 
+---
+
+# Psyched? Then keep up to date!
+
+<div class="flex mx-32 my-auto justify-around">
+
+<Qrcode class="max-w-xl" url="https://www.youtube.com/@TheAlexLichter/" note="My YouTube Channel" />
+<Qrcode class="max-w-xl" url="https://dejavue.fm/?ref=enterjs" note="The DejaVue Podcast" />
+
+</div>
 
 ---
 layout: intro
