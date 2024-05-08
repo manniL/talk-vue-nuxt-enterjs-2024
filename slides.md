@@ -535,7 +535,7 @@ layout: intro
 <VClicks>
 
 * Alternative to VDOM in Vue
-* Solid-like approach to render components
+* <logos-solidjs /> Solid-like approach to render components
 * Blazing fast™️
 * Still experimental and in development
 * Already open source + [API progress available](https://github.com/vuejs/core-vapor/issues/197)
@@ -564,29 +564,79 @@ layout: intro
 
 # What did <logos-vue/>ue ever done for us?
 
-<VClicks>
+<VClicks depth="2">
 
 * Vite <logos-vitejs />
+  * [Rolldown](https://rolldown.rs/) <img src="https://rolldown.rs/rolldown-round.svg" class="h-10 w-10 inline" />
 * Volar (Language Tools) <img src="https://raw.githubusercontent.com/volarjs/docs/main/public/favicon.svg" class="h-10 w-10 inline" />
-* UnJS <img src="https://unjs.io/assets/images/design-kit/unjs-logo-black.svg" class="h-8 w-8 inline" />
-* Sli.dev (this presentation is built with it!)
+* [UnJS](https://unjs.io/relations/) <img src="https://unjs.io/assets/images/design-kit/unjs-logo-black.svg" class="h-8 w-8 inline" />
+* [Slidev](https://sli.dev/) <img src="https://sli.dev/logo.png" class="h-8 w-8 inline" /> (this presentation is built with it!)
 
 </VClicks>
 
 <style>
   ul {
-    @apply !mt-16;
+    @apply !mt-8;
   }
   li {
-    @apply !text-4xl my-8;
+    @apply !text-3xl my-6;
   }
 </style>
+
+<!--
+
+Vite is used by all major framework except "one weirdo" :P
+Rolldown: Rust-based Rollup
+More to come with OXC
+Full toolchain in the future (linter/format/...)
+
+-->
 
 ---
 layout: intro
 ---
 
 # <logos-nuxt-icon/> Nuxt <span class="text-[#00DC82]">3</span>
+
+---
+
+# <logos-nuxt-icon/> Nuxt <span class="text-[#00DC82]">3</span>
+
+<VClicks>
+
+* Meta Framework based on Vue.js
+* Versatile (SPA/SSR/SSG/ISR/Hybrid)
+* Own Server Engine (Nitro)
+  * Used by frameworks around the world (Analog, SolidStart, ...)
+* Convention over Configuration, sane defaults
+* More comfort, reduced "Time To Market"
+
+</VClicks>
+
+---
+
+# <logos-nuxt-icon/> Nuxt <span class="text-[#00DC82]">3</span> Features
+
+
+<VClicks>
+
+* FS-based routing
+* Anti-pattern detection
+* Deploy "anywhere"
+* Full Stack possibilities with server routes and API routes
+* Layers - "inherit" from other (partial) apps
+* Server Components (experimental)
+* Rendering in various modes in the same app (hybrid)
+* Outstanding DevTools
+* Nuxt Hub (<logos-cloudflare-icon /> integration with D1, KV, Blob)
+
+</VClicks>
+
+---
+layout: intro
+---
+
+# <logos-nuxt-icon/> Demo!
 
 ---
 layout: intro
