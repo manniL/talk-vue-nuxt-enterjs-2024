@@ -10,10 +10,6 @@ layout: intro
 transition: fade
 ---
 
----
-layout: intro
----
-
 # Web Development changes quickly...
 
 ---
@@ -172,7 +168,7 @@ layout: intro
 clicks: 1
 ---
 
-# Drama in in Vue.js?
+# Drama in Vue.js?
 
 
 <Crickets v-if="$clicks === 0" class="mx-auto text-8xl mt-8">
