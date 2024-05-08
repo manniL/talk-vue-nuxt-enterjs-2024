@@ -39,6 +39,16 @@ let vs. const
 
 ---
 
+# Tailwind vs. "Semantic CSS"
+
+<img src="/tailwind-vs-semantic-bullshit.png" class="mx-auto h-80" />
+
+<p v-click class="absolute top-60 left-70 text-red-600 font-bold text-[80pt] rotate-25">Bullshit!</p>
+
+---
+
+---
+
 <img src="/no-build.jpg" class="mx-auto scale-120 h-100" />
 
 <!--
