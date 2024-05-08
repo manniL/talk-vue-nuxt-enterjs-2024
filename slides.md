@@ -479,7 +479,8 @@ layout: intro
 
 ````md magic-move
 ```vue
-<script setup lang="ts">
+<script lang="ts">
+// No <script setup> here!
 import { getUserById } from '../api'
 
 // Exporting is important!
@@ -491,7 +492,8 @@ export const useUserData = defineLoader(async (route) => {
 </script>
 ```
 ```vue
-<script setup lang="ts">
+<script lang="ts">
+// No <script setup> here!
 import { getUserById } from '../api'
 
 // Exporting is important!
@@ -500,7 +502,9 @@ export const useUserData = defineLoader(async (route) => {
   // do whatever you want here
   return user
 })
-
+</script>
+<script setup lang="ts">
+// Yes, this is a *different* script tag!
 // Access the fetched data and state
 const { data: user, isLoading, error, reload } = useUserData()
 </script>
