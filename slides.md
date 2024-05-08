@@ -558,7 +558,7 @@ layout: intro
 
 ---
 
-<img src="vue-for-us.jpg" class="mx-auto scale-120 h-90" />
+<img src="/vue-for-us.jpg" class="mx-auto scale-120 h-90" />
 
 ---
 
